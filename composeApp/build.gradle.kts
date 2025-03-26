@@ -47,7 +47,6 @@ kotlin {
             implementation(libs.kotlinx.io.bytestring)
             implementation(libs.kotlinx.datetime)
             implementation(libs.multipaz)
-            implementation(libs.multipaz.cbor.rpc.annotations)
             implementation(libs.multipaz.models)
             implementation(libs.multipaz.compose)
         }

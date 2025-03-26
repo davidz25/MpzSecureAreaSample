@@ -19,7 +19,7 @@ kotlinx-coroutines = "1.8.1"
 kotlinx-io = "0.4.0"
 kotlinx-datetime = "0.6.0"
 kotlinx-serialization = "1.7.0"
-multipaz-version = "0.90-dirty"
+multipaz = "0.90"
 
 [libraries]
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
@@ -43,10 +43,9 @@ kotlinx-io-bytestring = { group = "org.jetbrains.kotlinx", name = "kotlinx-io-by
 kotlinx-io-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-io-core", version.ref = "kotlinx-io"}
 kotlinx-datetime = { group = "org.jetbrains.kotlinx", name = "kotlinx-datetime", version.ref = "kotlinx-datetime"}
 kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinx-serialization" }
-multipaz = { group = "org.multipaz", name = "multipaz", version.ref = "multipaz-version" }
-multipaz-cbor-rpc-annotations = { group = "org.multipaz", name = "multipaz-cbor-rpc-annotations", version.ref = "multipaz-version" }
-multipaz-models = { group = "org.multipaz", name = "multipaz-models", version.ref = "multipaz-version" }
-multipaz-compose = { group = "org.multipaz", name = "multipaz-compose", version.ref = "multipaz-version" }
+multipaz = { group = "org.multipaz", name = "multipaz", version.ref = "multipaz" }
+multipaz-models = { group = "org.multipaz", name = "multipaz-models", version.ref = "multipaz" }
+multipaz-compose = { group = "org.multipaz", name = "multipaz-compose", version.ref = "multipaz" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
