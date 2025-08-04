@@ -11,13 +11,3 @@ interface Platform {
 }
 
 expect fun getPlatform(): Platform
-
-expect suspend fun getPlatformSecureArea(): SecureArea
-
-expect fun getPlatformCreateKeySettings(
-    challenge: ByteString,
-    algorithm: Algorithm,
-    userAuthenticationRequired: Boolean,
-    validFrom: Instant,
-    validUntil: Instant
-): CreateKeySettings
