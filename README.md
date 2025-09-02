@@ -1,7 +1,2 @@
-This is a Kotlin Multiplatform project targeting Android, iOS.
+This repo has been moved to https://github.com/openwallet-foundation/multipaz-samples
 
-It's a minimal example of how to use the multipaz and multipaz-compose libraries.
-
-Learn more about [Multipaz](https://github.com/openwallet-foundation-labs/identity-credential)…
-
-This is not an official or supported Google product.
